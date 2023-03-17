@@ -37,7 +37,7 @@ class PopularMoviesImpl extends PopularMoviesRepository {
     var request = http.Request(
       'GET',
       Uri.parse(
-          'https://api.themoviedb.org/3/movie/$idMovie?api_key=${EnvironmentoConfig.apiKey}'),
+          'https://api.themoviedb.org/3/movie/$idMovie?language=es&api_key=${EnvironmentoConfig.apiKey}'),
     );
 
     http.StreamedResponse response = await request.send();
