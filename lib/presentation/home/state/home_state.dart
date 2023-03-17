@@ -1,5 +1,5 @@
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import 'package:moviesdb/data/usecases/movies_impl.dart';
+import 'package:moviesdb/data/services/movies_impl.dart';
 import 'package:moviesdb/domain/models/popular_movie.dart';
 
 // The FutureProvider that does the fetching of the paginated list of movies

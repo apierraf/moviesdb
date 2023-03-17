@@ -12,7 +12,7 @@ class HomeScreen extends StatelessWidget {
           SliverAppBar.medium(
             title: const Text('Películas Populares'),
           ),
-          ListMovies(),
+          const ListMovies(),
         ],
       ),
     );

@@ -35,6 +35,7 @@ dependencies:
   flutter_riverpod: ^2.3.2
   go_router: ^6.2.0
   http: ^0.13.5
+  intl: ^0.18.0
   percent_indicator: ^4.2.3
   shimmer: ^2.0.0
 
